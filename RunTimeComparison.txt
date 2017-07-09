@@ -1,0 +1,26 @@
+Run Time comprison for a 100,000 numbers for both programs. This can also be avhieved within program using Python's timeit module too.
+[root@localhost Project-Euler]# python -m cProfile Problem1_Multiple_3-5_.py 
+2333316668
+         4 function calls in 0.021 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.021    0.021    0.021    0.021 Problem1_Multiple_3-5_.py:3(<module>)
+        1    0.000    0.000    0.021    0.021 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+[root@localhost Project-Euler]# python -m cProfile Problem1_Multiple_3-5_AnotherWay.py 
+2333316668
+         4 function calls in 0.018 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.018    0.018    0.018    0.018 Problem1_Multiple_3-5_AnotherWay.py:4(<module>)
+        1    0.000    0.000    0.018    0.018 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
