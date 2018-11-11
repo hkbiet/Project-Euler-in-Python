@@ -5,4 +5,4 @@ while b<4000000:
 		sum=sum+b
 	a,b=b,a+b
 
-print('SUM IS : ',sum)
+print(sum)
