@@ -24,3 +24,4 @@ Run Time comprison for a 100,000 numbers for both programs. This can also be avh
         1    0.000    0.000    0.000    0.000 {built-in method builtins.print}
         1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
 
+# Best ever try !
