@@ -1,6 +1,6 @@
-#Another way to solve the problem 
+# Another way to solve the problem 
 
-#Calculating the last multiple of 3 and 5 below 1000
+# Calculating the last multiple of 3 and 5 below 1000
 qt3 = 1000//3
 lm3=3*qt3
 
