@@ -1,4 +1,4 @@
-# from hktechus
+# from hktechus from here
 sumList=[]
 for i in range(1,1000):
 	if i%3==0 and i%5==0:
