@@ -12,7 +12,7 @@
  		# Prime found!
 		if(num % i == 0 ):
 			found = i
- print(found)
+ print(found)  unchabged sample here
 
 '''
 
