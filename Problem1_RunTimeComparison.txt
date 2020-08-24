@@ -1,5 +1,6 @@
 Run Time comprison for a 100,000 numbers for both programs. This can also be avhieved within program using Python's timeit module too.
 [root@localhost Project-Euler]# python -m cProfile Problem1_Multiple_3-5_.py 
+
 2333316668
          4 function calls in 0.021 seconds
 
