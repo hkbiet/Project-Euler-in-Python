@@ -1,4 +1,5 @@
 # Another way to solve the problem 
+#
 
 # Calculating the last multiple of 3 and 5 below 1000 | done
 qt3 = 1000//3
